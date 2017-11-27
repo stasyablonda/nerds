@@ -1,6 +1,73 @@
 *{
 	margin: 0 auto; 
 	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration:none; 
+	color: black;
+}
 
-	 box-sizing: border-box;
+.body{
+	
+}
+.wrapper{
+	width:1160px;
+}
+.header-bg{
+	background-color: #eeeeee;
+}
+.class1{
+	height:123px;
+}
+.class1 .nerds-logo{
+	width:160px;
+	height:65px;
+	margin-top: 50px;
+}
+.class1 ul{
+	list-style:none;
+	margin-left: 360px;
+	position: absolute;
+	top: 80px;
+}
+.class1 ul li{
+	text-transform: uppercase;
+	display: inline-block;
+	margin-right: 43px;
+	font-size: 16px;
+	font-family: RobotoMedium;
+	font-color:black;
+}
+.class1 .cart{
+	margin-left: 200px;
+}
+.class1 a:visited{
+	color:black;
+}
+.class1 .cart-icon{
+	width:15px;
+	height:15px;
+	display: inline-block;
+}
+.class1 span{
+	margin-left: 22px;
+}
+.class2{
+	height:422px;
+}
+.class3{
+	height:508px;
+}
+.class4{
+	height:530px;
+}
+.class5{
+	height:177px;
+}
+.class6{
+	height:500px;
+}
+.class7{
+	height:220px;
 }
