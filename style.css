@@ -56,6 +56,39 @@ a{
 .class2{
 	height:422px;
 }
+.class2 .slider1_h1{
+	font-family: RobotoMedium;
+	font-size:55px;
+	margin-top: 75px;
+}
+.class2 .slider1_h2{
+	font-family: RobotoRegular;
+	font-size:16px;
+	color:#283136;
+	margin-top: 30px;
+}
+.class2 .header_bn{
+	width:240px;
+	height:50px;
+	border-radius: 5px;
+	background-color: #fb565a;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-family: RobotoMedium;
+	color:white;
+	margin-left: 0;
+	margin-top: 45px;
+	padding-left: 55px;
+	padding-top: 18px;
+}
+.class2 .wrap_slider1{
+	float: left;
+}
+.class2 .slider1 img{
+	float:left;
+	margin-left: 50px;
+	margin-top: 10px;
+}
 .class3{
 	height:508px;
 }
