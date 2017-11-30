@@ -67,7 +67,7 @@ a{
 	color:#283136;
 	margin-top: 30px;
 }
-.class2 .header_bn{
+.class2 .header_btn{
 	width:240px;
 	height:50px;
 	border-radius: 5px;
@@ -80,15 +80,15 @@ a{
 	margin-top: 45px;
 	position: relative; 
 }
-.class2 .header_bn:hover{
+.class2 .header_btn:hover{
 	background-color: #e74246;
 }
-.class2 .header_bn:active{
+.class2 .header_btn:active{
 	background-color: #d7363a;
 	color: #e37375;
 	border-top: 4px solid #c13134;
 }
-.class2 .header_bn p{
+.class2 .header_btn p{
 	margin: 0;
     position: absolute;
     top: 50%;
@@ -106,6 +106,59 @@ a{
 }
 .class3{
 	height:508px;
+}
+.class3 .advantages{
+	display:inline-block;
+	width:300px;
+	margin-top:80px;
+	margin-right:100px;
+}
+.class3 .present{
+	margin-right:0;
+}
+.class3 .advantages .adv_h1{
+	text-transform: uppercase;
+	font-size:24px;
+	font-family: RobotoBold;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.class3 .advantages .adv_h2{
+	font-size:16px;
+	color:#283136;
+	font-family: RobotoRegular;
+	line-height:1.5;
+}
+.class3 .advantage_btn{
+	width:160px;
+	height:50px;
+	margin-left:0;
+	margin-top:35px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-family: RobotoMedium;
+	color:white;
+	margin-left: 0;
+	margin-top: 45px;
+	position: relative; 
+}
+.class3 .advantage_btn p{
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.class3 .advantage_btn1{
+	background-color:#fb565a;
+}
+.class3 .advantage_btn2{
+	background-color:#00ca74;
+}
+.class3 .advantage_btn3{
+	background-color:#efc84a;
 }
 .class4{
 	height:530px;

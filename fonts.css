@@ -10,3 +10,9 @@
 		font-style: normal;
 		font-weight: normal;
 }
+@font-face {
+		font-family: "RobotoBold";
+		src: url(fonts/Roboto-master/Roboto-Bold.ttf) format("truetype");
+		font-style: normal;
+		font-weight: normal;
+}
