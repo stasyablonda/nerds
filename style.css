@@ -78,8 +78,23 @@ a{
 	color:white;
 	margin-left: 0;
 	margin-top: 45px;
-	padding-left: 55px;
-	padding-top: 18px;
+	position: relative; 
+}
+.class2 .header_bn:hover{
+	background-color: #e74246;
+}
+.class2 .header_bn:active{
+	background-color: #d7363a;
+	color: #e37375;
+	border-top: 4px solid #c13134;
+}
+.class2 .header_bn p{
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 .class2 .wrap_slider1{
 	float: left;
