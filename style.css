@@ -104,14 +104,13 @@ a{
 	margin-left: 50px;
 	margin-top: 10px;
 }
-.class3{
-	height:508px;
-}
+
 .class3 .advantages{
 	display:inline-block;
 	width:300px;
 	margin-top:80px;
 	margin-right:100px;
+	margin-bottom: 80px;
 }
 .class3 .present{
 	margin-right:0;
@@ -160,8 +159,89 @@ a{
 .class3 .advantage_btn3{
 	background-color:#efc84a;
 }
+hr{
+	color:#eeeeee;
+}
 .class4{
 	height:530px;
+}
+.class4 .studio{
+	display: inline-block;
+	width:665px;
+	height:408px;
+	margin-top:80px;
+}
+.class4 .studio .studio_h1{
+	font-family: RobotoMedium;
+	font-size: 45px;
+	line-height: 45px;
+}
+.class4 .studio .studio_h2{
+	font-family: RobotoRegular;
+	font-size: 16px;
+	color:#283136;
+	line-height: 24px;
+	margin-top:40px;
+	margin-bottom:45px;
+}
+.class4 .studio .studio_h3{
+	font-family: RobotoBold;
+	font-size: 16px;
+	line-height: 24px;
+	text-transform: uppercase;
+	margin-bottom:35px;
+}
+.class4 .studio .studio_h4{
+	font-size: 16px;
+	color:#283136;
+	margin-bottom:35px;
+}
+.class4 .studio .studio_h4 {
+	color:#fb565a;
+}
+.class4 .studio .tirer{
+	width:25px; height:2px; background-color:#fb565a;
+	float:left; margin-top:10px; margin-right:10px;
+}
+.class4 .history{
+	display: inline-block;
+	width:360px;
+	height:408px;
+	float: right;
+	margin-top:40px;
+}
+.class4 .history .history_h1{
+	font-family: RobotoBold;
+	font-size: 16px;
+	line-height: 24px;
+	text-transform: uppercase;
+	margin-top:40px;
+	margin-bottom:50px;
+	float: right;
+}
+.class4 .history .plus{
+	width:350px;
+	height:100px;
+	margin-bottom:65px;
+}
+.class4 .plus_1{
+	width:112px;
+	float: left;
+}
+
+.class4 .history .plus .plus_h1{
+	font-family: RobotoBold;
+	font-size: 46px;
+	line-height: 10px;
+	margin-bottom: 25px;
+	display: inline-block;
+}
+.class4 .history .plus .plus_h2{
+	font-family: RobotoRegular;
+	font-size: 16px;
+	line-height: 18px;
+	color:#283136;
+	display: inline-block;
 }
 .class5{
 	height:177px;
