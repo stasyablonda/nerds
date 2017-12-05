@@ -26,6 +26,12 @@ hr{
 	height:65px;
 	margin-top: 50px;
 }
+.class1 .nerds-logo:hover{
+	opacity:0.8;
+}
+.class1 .nerds-logo:active{
+	opacity:0.3;
+}
 .class1 ul{
 	list-style:none;
 	margin-left: 360px;
@@ -38,7 +44,18 @@ hr{
 	margin-right: 43px;
 	font-size: 16px;
 	font-family: RobotoMedium;
-	font-color:black;
+	color:black;
+}
+.class1 ul li a:hover{
+	color:#fb565a;
+}
+.class1 ul li a:active{
+	color:black;
+	opacity:0.3;
+}
+.active{
+	border-bottom:2px solid #fb565a;
+	padding-bottom: 10px;
 }
 .class1 .cart{
 	margin-left: 200px;
@@ -245,7 +262,17 @@ hr{
 }
 
 .class5 .image{
-	margin-bottom:45px; margin-top:40px;
+	margin-bottom:45px; 
+	margin-top:40px;
+}
+.class5 .image>img{
+	opacity:0.2;
+}
+.class5 .image>img:hover{
+	opacity:1;
+}
+.class5 .image>img:active{
+	opacity:0.1;
 }
 .class5 .image .logo-1{
 	margin-left: 30px;
