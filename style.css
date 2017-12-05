@@ -215,9 +215,9 @@ hr{
 	font-size: 16px;
 	line-height: 24px;
 	text-transform: uppercase;
-	margin-top:40px;
-	margin-bottom:50px;
-	float: right;
+	margin-top:30px;
+	margin-bottom:45px;
+	
 }
 .class4 .history .plus{
 	width:350px;
@@ -228,12 +228,15 @@ hr{
 	width:112px;
 	float: left;
 }
+.class4 .plus_1 .plus_h1 sup{
+	font-size:25px;
+}
 
 .class4 .history .plus .plus_h1{
 	font-family: RobotoBold;
 	font-size: 46px;
 	line-height: 10px;
-	margin-bottom: 25px;
+	margin-bottom: 30px;
 	display: inline-block;
 }
 .class4 .history .plus .plus_h2{
