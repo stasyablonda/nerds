@@ -8,9 +8,10 @@ a{
 	color: black;
 }
 
-.body{
-	
+hr{
+	color:#eeeeee;
 }
+
 .wrapper{
 	width:1160px;
 }
@@ -159,9 +160,7 @@ a{
 .class3 .advantage_btn3{
 	background-color:#efc84a;
 }
-hr{
-	color:#eeeeee;
-}
+
 .class4{
 	height:530px;
 }
@@ -216,8 +215,7 @@ hr{
 	line-height: 24px;
 	text-transform: uppercase;
 	margin-top:30px;
-	margin-bottom:45px;
-	
+	margin-bottom:45px;	
 }
 .class4 .history .plus{
 	width:350px;
@@ -231,7 +229,6 @@ hr{
 .class4 .plus_1 .plus_h1 sup{
 	font-size:25px;
 }
-
 .class4 .history .plus .plus_h1{
 	font-family: RobotoBold;
 	font-size: 46px;
@@ -246,8 +243,25 @@ hr{
 	color:#283136;
 	display: inline-block;
 }
-.class5{
-	height:177px;
+
+
+.class5 .image{
+	margin-bottom:45px; margin-top:40px;
+}
+.logo-1{
+	margin-left: 30px;
+}
+.logo-2{
+	margin-left: 95px;
+}
+.logo-3{
+	margin-left: 95px;
+}
+.logo-4{
+	margin-left: 120px;
+}
+.class5 .image .logo-3{
+	margin-bottom: 25px;
 }
 .class6{
 	height:500px;
