@@ -3,6 +3,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+body{
+	min-width: 1160px;
+}
 a{
 	text-decoration:none; 
 	color: black;
@@ -37,6 +40,8 @@ hr{
 	margin-left: 360px;
 	position: absolute;
 	top: 80px;
+	min-width: 800px;
+
 }
 .class1 ul li{
 	text-transform: uppercase;
@@ -56,6 +61,9 @@ hr{
 .active{
 	border-bottom:2px solid #fb565a;
 	padding-bottom: 10px;
+}
+.class1 .contacts{
+	margin-right: 0px;
 }
 .class1 .cart{
 	margin-left: 200px;
@@ -81,7 +89,7 @@ hr{
 }
 .class2 .slider1_h2{
 	font-family: RobotoRegular;
-	font-size:16px;
+	font-size:17px;
 	color:#283136;
 	margin-top: 30px;
 }
@@ -141,7 +149,7 @@ hr{
 	margin-bottom: 20px;
 }
 .class3 .advantages .adv_h2{
-	font-size:16px;
+	font-size:17px;
 	color:#283136;
 	font-family: RobotoRegular;
 	line-height:1.5;
@@ -194,7 +202,7 @@ hr{
 }
 .class4 .studio .studio_h2{
 	font-family: RobotoRegular;
-	font-size: 16px;
+	font-size: 17px;
 	color:#283136;
 	line-height: 24px;
 	margin-top:40px;
@@ -212,9 +220,7 @@ hr{
 	color:#283136;
 	margin-bottom:35px;
 }
-.class4 .studio .studio_h4 {
-	color:#fb565a;
-}
+
 .class4 .studio .tirer{
 	width:25px; height:2px; background-color:#fb565a;
 	float:left; margin-top:10px; margin-right:10px;
@@ -255,7 +261,7 @@ hr{
 }
 .class4 .history .plus .plus_h2{
 	font-family: RobotoRegular;
-	font-size: 16px;
+	font-size: 17px;
 	line-height: 18px;
 	color:#283136;
 	display: inline-block;
@@ -312,6 +318,6 @@ hr{
 }
 .class7 .footer_text2{
 	font-family: RobotoRegular;
-	font-size: 16px;
+	font-size: 17px;
 	color:#444444;
 }
