@@ -186,9 +186,7 @@ hr{
 	background-color:#efc84a;
 }
 
-.class4{
-	height:530px;
-}
+
 .class4 .studio{
 	display: inline-block;
 	width:665px;
@@ -220,7 +218,9 @@ hr{
 	color:#283136;
 	margin-bottom:35px;
 }
-
+hr.class_4{
+	margin-top: 35px;
+}
 .class4 .studio .tirer{
 	width:25px; height:2px; background-color:#fb565a;
 	float:left; margin-top:10px; margin-right:10px;
