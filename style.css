@@ -112,7 +112,7 @@ hr{
 .class2 .header_btn:active{
 	background-color: #d7363a;
 	color: #e37375;
-	border-top: 4px solid #c13134;
+	border-top: 3px solid #c13134;
 }
 .class2 .header_btn p{
 	margin: 0;
@@ -154,6 +154,7 @@ hr{
 	font-family: RobotoRegular;
 	line-height:1.5;
 }
+/*button*/
 .class3 .advantage_btn{
 	width:160px;
 	height:50px;
@@ -185,11 +186,34 @@ hr{
 .class3 .advantage_btn3{
 	background-color:#efc84a;
 }
-
-
+.class3 .advantage_btn1:hover{
+	background-color:#e74246;
+}
+.class3 .advantage_btn1:active{
+	background-color:#d7373b;
+	border-top: 3px solid #c13134;
+}
+.class3 .advantage_btn2:hover{
+	background-color:#00bc6c;
+}
+.class3 .advantage_btn2:active{
+	background-color:#00aa62;
+	border-top: 3px solid #009958;
+}
+.class3 .advantage_btn3:hover{
+	background-color:#eab534;
+}
+.class3 .advantage_btn3:active{
+	background-color:#e5a722;
+	border-top: 3px solid #ce961f;
+}
+.class3 .advantage_btn p:active{
+	opacity:0.3;
+}
+/*button*/
 .class4 .studio{
 	display: inline-block;
-	width:665px;
+	width:667px;
 	height:408px;
 	margin-top:80px;
 }
@@ -208,7 +232,7 @@ hr{
 }
 .class4 .studio .studio_h3{
 	font-family: RobotoBold;
-	font-size: 16px;
+	font-size: 17px;
 	line-height: 24px;
 	text-transform: uppercase;
 	margin-bottom:35px;
@@ -219,7 +243,7 @@ hr{
 	margin-bottom:35px;
 }
 hr.class_4{
-	margin-top: 35px;
+	margin-top: 80px;
 }
 .class4 .studio .tirer{
 	width:25px; height:2px; background-color:#fb565a;
@@ -234,11 +258,13 @@ hr.class_4{
 }
 .class4 .history .history_h1{
 	font-family: RobotoBold;
-	font-size: 16px;
+	font-size: 17px;
 	line-height: 24px;
 	text-transform: uppercase;
 	margin-top:30px;
-	margin-bottom:45px;	
+	margin-bottom:35px;	
+    float: right;
+
 }
 .class4 .history .plus{
 	width:350px;
@@ -294,8 +320,8 @@ hr.class_4{
 }
 
 .class6{
-	
 	padding-top:75px;
+	border:0;
 }
 
 .class7{
@@ -304,6 +330,41 @@ hr.class_4{
 .class7 img{
 	margin-right:11px;
 }
+.class7 .social{
+	display:inline-block;
+	float:left;
+}
+
+.class7 .icon{
+	display:inline-block;
+	height:79px;
+	width:79px;
+	border-radius:50%;
+	background-color:#e1e1e1;
+	margin-right: 10px;
+}
+.class7 .icon:hover{
+	background-color:#e74246;
+}
+.class7 .icon img:active{
+	opacity:0.3;
+}
+.class7 .icon:active{
+	background-color:#d7373b;
+}
+
+.class7 .icon .logos1{
+	margin-left: 27px;
+	margin-top: 30px;
+}
+.class7 .icon .logos2{
+	margin-left: 34px;
+	margin-top: 23px;
+}
+.class7 .icon .logos3{
+	margin-left: 29px;
+	margin-top: 25px;
+}	
 .class7 .footer_text{
 	display: inline-block;
 	margin-left: 140px;
