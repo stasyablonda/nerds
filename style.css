@@ -111,8 +111,10 @@ hr{
 }
 .class2 .header_btn:active{
 	background-color: #d7363a;
-	color: #e37375;
 	border-top: 3px solid #c13134;
+}
+.class2 .header_btn:active p{
+	opacity:0.3;
 }
 .class2 .header_btn p{
 	margin: 0;
@@ -207,7 +209,7 @@ hr{
 	background-color:#e5a722;
 	border-top: 3px solid #ce961f;
 }
-.class3 .advantage_btn p:active{
+.class3 .advantage_btn:active p{
 	opacity:0.3;
 }
 /*button*/
@@ -346,7 +348,7 @@ hr.class_4{
 .class7 .icon:hover{
 	background-color:#e74246;
 }
-.class7 .icon img:active{
+.class7 .icon:active img{
 	opacity:0.3;
 }
 .class7 .icon:active{
