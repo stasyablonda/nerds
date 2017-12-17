@@ -99,24 +99,22 @@
 			
 			<script>
       			function initMap() {
-       				var uluru = {lat:59.938728, lng:30.323380};
        				var map = new google.maps.Map(document.getElementById('map'), {
-
         					zoom: 18,
-        					center: uluru,
-
+        					center: {lat:59.938728, lng:30.323380},
         			});
-        			image = 'img/map-marker.png'
-        		
+					var image = {
+         				url: 'img/map-marker.png',
+          				size: new google.maps.Size(231, 190),
+          				origin: new google.maps.Point(0, 0),
+          				anchor: new google.maps.Point(50, 190)
+        			};
         			var marker = new google.maps.Marker({
-         				position: uluru,
+         				position: {lat:59.938800, lng:30.323080},
           				map: map,
           				icon: image,
-          				
         				});
-      				}
-
-      				
+					}
    			</script>
 
     		<script async defer
