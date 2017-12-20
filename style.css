@@ -396,13 +396,29 @@ hr.class_4{
 	font-size: 45px;
 	font-family: RobotoMedium;
 	padding-top: 70px;
-	margin-bottom:30px;
+	margin-bottom:30px; display: inline-block;
 }
 .letter{
 	padding-left: 105px;
-	box-shadow: 0 0 5px;
+	box-shadow:0 20px 40px rgba(0,1,1,.75);
 	width:960px;
 	height:590px;
+	position: absolute;
+	top: 1800px;
+	background-color: white;
+	left: 21%;
+
+}
+
+.letter img{
+	margin-left:435px;
+	opacity:0.3;
+}
+.letter img:hover{
+	opacity:1;
+}
+.letter img:active{
+	opacity: 0.1;
 }
 form{
 	font-size:17px;
@@ -432,7 +448,9 @@ input{
 .l-e-mail{
 	margin-left: 40px;
 }
-
+.popup{
+display:none !important;
+}
 textarea{
 	width:760px;
 	border: 2px solid #d7dcde;
@@ -442,7 +460,9 @@ textarea{
 	padding-top:13px;
 }
 
-
+button{
+	border: 0;
+}
 
 
 .class7{

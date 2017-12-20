@@ -94,9 +94,7 @@
 		</div>
 		<hr class="wrapper">
 		<div class="class6">
-
 			<div id="map"></div>
-			
 			<script>
       			function initMap() {
        				var map = new google.maps.Map(document.getElementById('map'), {
@@ -117,9 +115,7 @@
         			});
 
 					}
-
    			</script>
-
     		<script async defer
    				src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzkZ9OJRFxk-eAy_w_GaEiu7zp9InPwtw&callback=initMap">
    			 </script>
@@ -129,10 +125,23 @@
 				<p>	191186, Санкт-Петербург, 	<br>
 					ул. Б. Конюшенная, д. 19/8 	</p>
 				<p class="number">тел. +7 (812) 275-75-75</p>
-				<a href=""><div class="btn"><p>напишите нам</p></div></a>
+				<button onClick="getElementById('letter').removeAttribute('style');" type="button"><div class="btn"><p>напишите нам</p></div></button>
 			</div>
 
+			<div id="letter" class="letter" style="display:none;">
+				<p class="send">Напишите нам</p>
+
+				<button onClick="getElementById('letter').setAttribute('style');" type="button"><img src="img/close-cross.png"></button>
+				
+				<form action="" method="post">
+					<label class="l-name"><span>Ваше имя:</span><br><input type="text" name="name" id="name" placeholder="Представьтесь, пожалуйста"></label>
+					<label class="l-e-mail"><span>Ваш e-mail:</span><br><input type="email" name="e-mail" id="e-mail" placeholder="Для отправки ответа"></label><br>
+					<label class="more"><span>Текст письма:</span><br><textarea placeholder="В свободной форме" rows="5"></textarea></label><br>
+					<button><a href=""><div class="btn"><p>отправить</p></div></a></button>
+				</form>
+			</div>
 		</div>
+
 		<div class="wrapper class7">
 			<div class="social">
 				<a href=""><div class="icon"><img class="logos1" alt="" src="img/vk-icon.png"></div></a>
@@ -145,16 +154,5 @@
 			</div>
 		</div>
 
-
-		<div class="letter">
-			<p class="send">Напишите нам</p>
-			<form action="" method="post">
-				<label class="l-name"><span>Ваше имя:</span><br><input type="text" name="name" id="name" placeholder="Представьтесь, пожалуйста"></label>
-				<label class="l-e-mail"><span>Ваш e-mail:</span><br><input type="email" name="e-mail" id="e-mail" placeholder="Для отправки ответа"></label><br>
-				<label class="more"><span>Текст письма:</span><br><textarea placeholder="В свободной форме" rows="5"></textarea></label><br>
-				<button><a href=""><div class="btn"><p>отправить</p></div></a></button>
-			</form>
-			
-		</div>
 	</body>
 </html>
