@@ -410,7 +410,10 @@ hr.class_4{
 
 }
 
-.letter img{
+
+.letter button{
+	border:none;
+	color:none;
 	margin-left:435px;
 	opacity:0.3;
 }
