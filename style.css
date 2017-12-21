@@ -80,14 +80,14 @@ hr{
 	margin-left: 22px;
 }
 .class2{
-	height:422px;
+	height: 425px;
 }
-.class2 .slider1_h1{
+.class2 .slider_h1{
 	font-family: RobotoMedium;
-	font-size:55px;
+	font-size:52px;
 	margin-top: 75px;
 }
-.class2 .slider1_h2{
+.class2 .slider_h2{
 	font-family: RobotoRegular;
 	font-size:17px;
 	color:#283136;
@@ -124,6 +124,8 @@ hr{
     margin-right: -50%;
     transform: translate(-50%, -50%);
 }
+
+
 .class2 .wrap_slider1{
 	float: left;
 }
@@ -132,6 +134,8 @@ hr{
 	margin-left: 50px;
 	margin-top: 10px;
 }
+
+
 
 .class3 .advantages{
 	display:inline-block;
