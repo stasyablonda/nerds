@@ -26,7 +26,15 @@
 
 
 			<div class="wrapper class2">
-				<div class="slider1">
+				<input type="radio" id="bttn-1" name="toggle" checked>
+				<input type="radio" id="bttn-2" name="toggle">
+				<input type="radio" id="bttn-3" name="toggle">
+				<div class="slider-controls">
+					<label for="bttn-1"></label>
+					<label for="bttn-2"></label>
+					<label for="bttn-3"></label>
+				</div>
+				<div class="slider1" style="display: none;"">
 					<div class="wrap_slider1">
 						<p class="slider_h1">Долго, дорого, <br> скрупулезно.</p>
 						<p class="slider_h2">Математически выверенный дизайн <br> для вашего сайта или мобильного приложения</p>
@@ -53,6 +61,8 @@
 					<img src="img/slide3.png" alt="">
 				</div>
 
+			
+				
 			</div>
 
 
@@ -154,7 +164,7 @@
 			<div id="letter" class="letter" style="display:none;">
 				<p class="send">Напишите нам</p>
 
-				<button onClick="getElementById('letter').setAttribute('style', 'display:none');" type="button"><img src="img/close-cross.png"></button>
+				<button onClick="getElementById('letter').setAttribute('style', 'display:none');" type="button" class="close"><img src="img/close-cross.png"></button>
 				
 				<form action="" method="post">
 					<label class="l-name"><span>Ваше имя:</span><br><input type="text" name="name" id="name" placeholder="Представьтесь, пожалуйста"></label>

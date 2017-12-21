@@ -125,7 +125,12 @@ hr{
     transform: translate(-50%, -50%);
 }
 
-
+.class2 .slider2 img{
+	margin-top: -5px;
+}
+.class2 .slider3 img{
+	margin-top: 15px;
+}
 .class2 .wrap_slider1{
 	float: left;
 }
@@ -134,8 +139,48 @@ hr{
 	margin-left: 50px;
 	margin-top: 10px;
 }
+.slider input[type=radio]{
 
-
+	position: absolute;
+}
+.slider-controls{
+	position: absolute;
+	bottom:95px;
+	left:50%;
+	height:20px;
+	width:200px;
+	margin-left:-100px;
+	text-align: center;
+	z-index: 1000;
+}
+.slider-controls label{
+	display: inline-block;
+	width:18px;
+	height:18px;
+	margin: 0 3px;
+	background: white;
+	border:5px solid white;
+	vertical-align: top;
+	border-radius:50%;
+	cursor:pointer;
+}
+#bttn-1:checked ~ .slider-controls label[for="bttn-1"],
+#bttn-2:checked ~ .slider-controls label[for="bttn-2"],
+#bttn-3:checked ~ .slider-controls label[for="bttn-3"]{
+	background: #c1c1c1;
+}
+#bttn-1:checked ~ .slider1{
+	display:block !important;
+}
+#bttn-2:checked ~ .slider2{
+	display:block !important;
+}
+#bttn-3:checked ~ .slider3{
+	display:block !important;
+}
+.class2 input{
+	display:none;
+}
 
 .class3 .advantages{
 	display:inline-block;
@@ -415,7 +460,7 @@ hr.class_4{
 }
 
 
-.letter button{
+.letter .close{
 	border:none;
 	color:none;
 	margin-left:435px;
