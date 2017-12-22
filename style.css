@@ -84,7 +84,7 @@ hr{
 }
 .class2 .slider_h1{
 	font-family: RobotoMedium;
-	font-size:52px;
+	font-size:51px;
 	margin-top: 75px;
 }
 .class2 .slider_h2{
@@ -140,12 +140,11 @@ hr{
 	margin-top: 10px;
 }
 .slider input[type=radio]{
-
 	position: absolute;
 }
 .slider-controls{
 	position: absolute;
-	bottom:95px;
+	top: 480px;
 	left:50%;
 	height:20px;
 	width:200px;
